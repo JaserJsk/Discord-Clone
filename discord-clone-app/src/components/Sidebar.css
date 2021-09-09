@@ -1,0 +1,109 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background-color: #2F3135;
+}
+
+.sidebar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2F3135;
+    color: white;
+    border-bottom: 3px solid #26282C;
+}
+
+.sidebar-channels {
+    flex: 1;
+}
+
+.sidebar-channels-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: grey;
+    background-color: #2F3135;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-add-channel {
+    cursor: pointer;
+}
+
+.sidebar-add-channel:hover {
+    color: white;
+}
+
+/* ----------------------------------------------- */
+/* CONNECTED */
+
+.sidebar-voice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: grey;
+    border-top: 1px solid grey;
+    background-color: #2F3135;
+}
+
+.sidebar-voice-icon {
+    color: #4FB185;
+}
+
+.sidebar-voice-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar-voice-info > h3 {
+    color: #4FB185;
+}
+
+.sidebar-voice-info > p {
+    font-size: smaller;
+}
+
+.sidebar-voice-icons > .MuiSvgIcon-root {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* ----------------------------------------------- */
+/* PROFILE */
+
+.sidebar-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: grey;
+    border-top: 1px solid grey;
+    background-color: #2F3135;
+}
+
+.sidebar-profile-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar-profile-info > h3 {
+    color: white;
+}
+
+.sidebar-profile-info > p {
+    font-size: smaller;
+}
+
+.sidebar-profile-icons > .MuiSvgIcon-root {
+    padding: 10px;
+    cursor: pointer;
+}
