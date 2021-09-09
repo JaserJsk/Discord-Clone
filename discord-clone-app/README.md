@@ -1,3 +1,6 @@
+## Live Demo
+Open [Discord Clone App](https://discord-clone-app-reactjs.web.app/) to view it in the browser.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
@@ -43,7 +46,89 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+## Firebase Hosting Steps
 
+```sh
+firebase login
 
+firebase init
+```
 
-Continue at --> 1:25:00
+> Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.
+```sh
+Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+```
+
+> Please select an option:
+```sh
+Use an existing project
+```
+
+> Select a default Firebase project for this directory:
+```sh
+discord-clone-app-reactjs (Discord Clone App)
+```
+
+> What do you want to use as your public directory?
+```sh
+build
+```
+
+> Configure as a single-page app (rewrite all urls to /index.html)?
+```sh
+Yes
+```
+
+> Set up automatic builds and deploys with GitHub?
+```sh
+Yes
+```
+
+> For which GitHub repository would you like to set up a GitHub workflow? (format: user/repository)
+```sh
+JaserJsk\Discord-Clone
+```
+
+> Set up the workflow to run a build script before every deploy?
+```sh
+Yes
+```
+
+> What script should be run before every deploy?
+```sh
+npm run build
+```
+
+> Set up automatic deployment to your site's live channel when a PR is merged?
+```sh
+Yes
+```
+
+> What is the name of the GitHub branch associated with your site's live channel?
+```sh
+main
+```
+
+> Firebase initialization complete!
+```sh
+npm run build
+```
+
+> Begin Deployment
+```sh
+firebase deploy
+```
+
+```sh
+deploying hosting
+i  hosting[discord-clone-app-reactjs]: beginning deploy...
+i  hosting[discord-clone-app-reactjs]: found 17 files in build
++  hosting[discord-clone-app-reactjs]: file upload complete
+i  hosting[discord-clone-app-reactjs]: finalizing version...
++  hosting[discord-clone-app-reactjs]: version finalized
+i  hosting[discord-clone-app-reactjs]: releasing new version...
++  hosting[discord-clone-app-reactjs]: release complete
+
++  Deploy complete!
+```
+
