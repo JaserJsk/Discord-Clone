@@ -132,3 +132,7 @@ i  hosting[discord-clone-app-reactjs]: releasing new version...
 +  Deploy complete!
 ```
 
+> Redeploy the app after doing any changes, switch to Git Bash
+```sh
+npm run build && firebase deploy
+```
