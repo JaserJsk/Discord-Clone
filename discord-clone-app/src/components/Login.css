@@ -3,6 +3,7 @@
     width: 100%;
     height: 100vh;
     place-items: center;
+    background-color: #23272A;
 }
 
 .login-logo > img {
@@ -19,6 +20,6 @@
 
 .login > button:hover {
     color: #738ADB;
-    background-color: black;
+    background-color: #F6F6F6;
 }
 

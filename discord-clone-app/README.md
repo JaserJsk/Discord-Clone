@@ -1,5 +1,5 @@
 ## Live Demo
-Open [Discord Clone App](https://discord-clone-app-reactjs.web.app/) to view it in the browser.
+Open [Discord Clone App](https://discord-clone-app-reactjs.firebaseapp.com/) to view it in the browser.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
