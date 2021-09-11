@@ -8,7 +8,7 @@ import SearchRoundedIcon from "@material-ui/icons/SearchRounded";
 import SendRoundedIcon from "@material-ui/icons/SendRounded";
 import HelpRoundedIcon from "@material-ui/icons/HelpRounded";
 
-const ChatHeader = ({ channelName }) => {
+function ChatHeader({ channelName }) {
   return (
     <div className="chat-header">
       <div className="chat-header-left">

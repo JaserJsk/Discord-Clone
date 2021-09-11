@@ -17,7 +17,7 @@ import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 
 import SidebarChannel from "./SidebarChannel";
 
-const SideBar = () => {
+function SideBar() {
   const user = useSelector(selectUser);
   const [channels, setChannels] = useState([]);
 

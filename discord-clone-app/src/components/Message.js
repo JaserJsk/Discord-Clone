@@ -3,7 +3,7 @@ import "./Message.css";
 import React from "react";
 import { Avatar } from "@material-ui/core";
 
-const Message = ({ user, message, timestamp }) => {
+function Message({ user, message, timestamp }) {
   return (
     <div className="message">
       <Avatar src={user.photo} />

@@ -16,7 +16,7 @@ import EmojiEmotionsIcon from "@material-ui/icons/EmojiEmotions";
 import ChatHeader from "./ChatHeader";
 import Message from "./Message";
 
-const Chat = () => {
+function Chat() {
   const user = useSelector(selectUser);
   const channelId = useSelector(selectChannelId);
   const channelName = useSelector(selectChannelName);
