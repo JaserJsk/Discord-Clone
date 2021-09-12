@@ -1,4 +1,5 @@
 ## Live Demo
+
 Open [Discord Clone App](https://discord-clone-app-reactjs.firebaseapp.com/) to view it in the browser.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
@@ -55,66 +56,49 @@ firebase init
 ```
 
 > Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.
+
 ```sh
 Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
 ```
 
 > Please select an option:
+
 ```sh
 Use an existing project
 ```
 
 > Select a default Firebase project for this directory:
+
 ```sh
 discord-clone-app-reactjs (Discord Clone App)
 ```
 
 > What do you want to use as your public directory?
+
 ```sh
 build
 ```
 
 > Configure as a single-page app (rewrite all urls to /index.html)?
+
 ```sh
 Yes
 ```
 
 > Set up automatic builds and deploys with GitHub?
-```sh
-Yes
-```
 
-> For which GitHub repository would you like to set up a GitHub workflow? (format: user/repository)
 ```sh
-JaserJsk\Discord-Clone
-```
-
-> Set up the workflow to run a build script before every deploy?
-```sh
-Yes
-```
-
-> What script should be run before every deploy?
-```sh
-npm run build
-```
-
-> Set up automatic deployment to your site's live channel when a PR is merged?
-```sh
-Yes
-```
-
-> What is the name of the GitHub branch associated with your site's live channel?
-```sh
-main
+No
 ```
 
 > Firebase initialization complete!
+
 ```sh
 npm run build
 ```
 
 > Begin Deployment
+
 ```sh
 firebase deploy
 ```
@@ -133,6 +117,7 @@ i  hosting[discord-clone-app-reactjs]: releasing new version...
 ```
 
 > Redeploy the app after doing any changes, switch to Git Bash
+
 ```sh
 npm run build && firebase deploy
 ```
